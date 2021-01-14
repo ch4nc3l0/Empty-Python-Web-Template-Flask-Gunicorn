@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7.1
+#!/usr/bin/env python3.7.9
 # Above line is to set the interpreter
 
 # Imports

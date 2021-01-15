@@ -1,10 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel='stylesheet' href="{{url_for('static', filename='css/index.css')}}">
+    <title>Get-Started-Template</title>
 </head>
+
 <body>
-    its working yay
+
+    <div id='divParentExample'>
+
+        <div id='divChildExample'>
+            <p>Hey, it's me again. Ready for you to make another awesome webapp utilizing Python 3.7.9, Flask, Sass, and Gunicorn. 
+                This is a basic starter template! Look to the TIRD for inspirations as it is a rare, inspiring creature.
+
+            </p>
+        </div>
+
+        <img id='imgExample' src="{{url_for('static', filename='img/tiger-bird.jpg')}}" alt="Tiger Bird LOL!">
+
+    </div>
+
+
+        
+
+
 </body>
 </html>
